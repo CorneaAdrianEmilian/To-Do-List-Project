@@ -1,0 +1,173 @@
+
+body
+{
+height: 100vh;
+background: url(pictures/background.jpg) no-repeat center center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+main
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+row-gap: 20px;
+}
+
+
+.input_container
+{
+display: flex;
+width: 350px;
+justify-content: space-between;
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 0 3px;
+padding: 15px 30px;
+border: none;
+}
+
+.user_input
+{
+font-size: 18px;
+border: none;
+}
+
+.add_btn
+{
+font-size: 18px;
+background-color: aqua;
+color: white;
+border: 0.5px solid ;
+padding: 5px 10px;
+border-radius: 10px;
+transition: 0.7s;
+box-shadow: 0 0 5px;
+cursor: pointer;
+}
+.add_btn:hover
+{
+color: aqua;
+background-color: white;
+}
+.add_btn:active
+{
+background-color: aqua;
+}
+
+
+.tasksList
+{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+width: 350px;
+justify-content: space-between;
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 0 3px;
+padding: 15px 30px;
+border: none;
+
+}
+
+.tasksList:empty
+{
+  display: none;
+}
+
+
+.task
+{
+list-style-type: none;
+padding: 0;
+display: flex;
+align-items:center;
+justify-content: space-between;
+}
+
+.taskButtonsContainer
+{
+width: 80px;
+display: flex;
+align-items:center;
+justify-content: space-between;
+
+}
+
+.completeBtn
+{
+font-size: 18px;
+background-color: rgb(50, 252, 110);
+color: white;
+border: 0.5px solid ;
+padding: 5px 10px;
+border-radius: 10px;
+transition: 0.7s;
+box-shadow: 0 0 5px;
+cursor: pointer;
+}
+.completeBtn:hover
+{
+color:  rgb(50, 252, 110);
+background-color: white;
+}
+.completeBtn:active
+{
+background-color:  rgb(50, 252, 110);
+}
+
+.deleteBtn
+{
+font-size: 18px;
+background-color: rgb(253, 45, 45);
+color: white;
+border: 0.5px solid ;
+padding: 5px 10px;
+border-radius: 10px;
+transition: 0.7s;
+box-shadow: 0 0 5px;
+cursor: pointer;
+}
+.deleteBtn:hover
+{
+color:  rgb(253, 45, 45);
+background-color: white;
+}
+.deleteBtn:active
+{
+background-color:   rgb(253, 45, 45);
+}
+
+.save_tasks
+{
+font-size: 18px;
+background-color: rgb(50, 252, 110);
+color: white;
+border: 0.5px solid ;
+padding: 5px 10px;
+border-radius: 10px;
+transition: 0.7s;
+box-shadow: 0 0 5px;
+cursor: pointer;
+}
+.save_tasks:hover
+{
+color: rgb(50, 252, 110);
+background-color: white
+}
+.save_tasks:active
+{
+background-color: rgb(50, 252, 110);
+}
+
+
+
+.completedTask
+{
+  text-decoration: line-through;
+}
